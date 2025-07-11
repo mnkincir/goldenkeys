@@ -16,6 +16,12 @@
     @else
         <meta name="description" content="Golden Keys Real Estate - İzmir Aliağa ve Bergama Satılık ve Kiralık Emlak İlanları">
     @endif
+
+    @if(request()->is('tesekkurler'))
+        <meta name="robots" content="noindex, nofollow">
+    @else
+        <meta name="robots" content="index, follow">
+    @endif
     
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
