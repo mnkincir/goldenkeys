@@ -1,8 +1,8 @@
 <footer class="footer bg-base-300 text-base-content p-16">
     <nav>
         <h4 class="footer-title">İzmir Aliağa - İzmir Bergama Emlak</h4>
-        <div><a class="link link-hover" href="/aliaga-emlak">Aliağa Satılık ve Kiralık Emlak İlanları - Golden Keys Real Estate</a></div>
-        <div><a class="link link-hover" href="/bergama-emlak">Bergama Satılık ve Kiralık Emlak İlanları - Golden Keys Real Estate</a></div>
+        <div><a class="link link-hover" href="/aliaga-emlak">Aliağa Satılık ve Kiralık Emlak İlanları</a></div>
+        <div><a class="link link-hover" href="/bergama-emlak">Bergama Satılık ve Kiralık Emlak İlanları</a></div>
     </nav>
     <nav>
         <h4 class="footer-title">GOLDEN KEYS HAKKINDA</h4>
