@@ -38,6 +38,6 @@ class SitemapController extends Controller
             ],
         ];
 
-        return response()->view('xml.sitemap', compact('pages'))->header('Content-Type', 'text/xml');
+        return response()->view('sitemap', compact('pages'))->header('Content-Type', 'text/xml');
     }
 }
