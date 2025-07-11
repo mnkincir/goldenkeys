@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FormController;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -30,4 +31,7 @@ Route::get('/subeler', function () {
 Route::get('tesekkurler', function () {
     return view('site.thanks');
 });
+
+Route::get('sitemap.xml', [SitemapController::class, 'index']);
+
 Route::post('forms/franchise-apply', [FormController::class, 'franchiseApply']);
