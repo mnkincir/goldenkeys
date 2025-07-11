@@ -1,0 +1,17 @@
+@extends('site.layouts.app')
+
+@section('content')
+    <section class="card bg-base-100 shadow-xl p-8 space-y-6">
+        <div class="space-y-5 text-center">
+            <h1 class="text-3xl font-bold">
+                Sayfa Bulunamadı
+            </h1>
+            <p class="text-gray-700">
+                Bu bağlantı geçersiz olabilir ya da yanlış yazılmış olabilir.
+            </p>
+            <a href="{{ url('/') }}" class="btn btn-primary">
+                Anasayfaya dön.
+            </a>
+        </div>
+    </section>
+@endsection
