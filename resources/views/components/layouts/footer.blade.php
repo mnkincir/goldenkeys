@@ -1,18 +1,17 @@
 <footer class="footer bg-base-300 text-base-content p-16">
-    {{-- <nav>
-        <h6 class="footer-title">GAYRİMENKULLER</h6>
-        <div><a class="link link-hover" href="/ilanlar">Konutlar</a></div>
-        <div><a class="link link-hover" href="/ilanlar">Arsalar</a></div>
-        <div><a class="link link-hover" href="/ilanlar">Ticari Gayrimenkuller</a></div>
-    </nav> --}}
     <nav>
-        <h6 class="footer-title">GOLDEN KEYS HAKKINDA</h6>
+        <h4 class="footer-title">İzmir Aliağa - İzmir Bergama Emlak</h4>
+        <div><a class="link link-hover" href="/aliaga-emlak">Aliağa Satılık ve Kiralık Emlak İlanları - Golden Keys Real Estate</a></div>
+        <div><a class="link link-hover" href="/bergama-emlak">Bergama Satılık ve Kiralık Emlak İlanları - Golden Keys Real Estate</a></div>
+    </nav>
+    <nav>
+        <h4 class="footer-title">GOLDEN KEYS HAKKINDA</h4>
         <div><a class="link link-hover" href="/hakkimizda">Hakkımızda</a></div>
         <div><a class="link link-hover" href="/subeler">Ofislerimiz</a></div>
         <div><a class="link link-hover" href="/danismanlar">Danışmanlarımız</a></div>
     </nav>
     <nav>
-        <h6 class="footer-title">Sosyal Medya</h6><a href="https://www.youtube.com/@goldenkeys_realestate"
+        <h4 class="footer-title">Sosyal Medya</h4><a href="https://www.youtube.com/@goldenkeys_realestate"
             target="_blank" rel="noopener noreferrer"
             class="flex justify-center items-center hover:underline"><svg xmlns="http://www.w3.org/2000/svg"
                 width="24" height="24" viewBox="0 0 24 20" class="fill-current">
