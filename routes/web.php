@@ -32,6 +32,6 @@ Route::get('tesekkurler', function () {
     return view('site.thanks');
 });
 
-Route::get('sitemap.xml', [SitemapController::class, 'index']);
+//Route::get('sitemap.xml', [SitemapController::class, 'index']);
 
 Route::post('forms/franchise-apply', [FormController::class, 'franchiseApply']);
